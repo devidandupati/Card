@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:16px;
+}
+.logo{
+    background-color: black;
+    letter-spacing:4px;
+    
+    color:white;
+    padding:50px 100px;
+}
+/* .container{
+    height:850px;
+} */
+.section{
+    height:24rem;
+    background:linear-gradient(
+        to right,
+        rgba(105,62,27,0.5),
+        #693e1b
+    ),url('coffee image.jfif') center/cover;
+}
+p{
+    margin:0.5rem auto;
+    padding:2rem;
+    color:white;
+    line-height: 1.5rem;
+}
+.section-heading{
+    margin:0rem 1rem;
+}
+.btn{
+    letter-spacing:1.5px;
+    width:7rem;
+    margin-top:1rem;
+    margin:1rem;
+    background-color: rgb(192, 158, 108);
+    height:35px;
+}
